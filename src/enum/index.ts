@@ -6,6 +6,7 @@ export enum NumType {
   Four = One + Three,
   Five = Four + 1,
   LessThanSix = Zero || One || Two || Three || Four || Five,
+  None = null,
 }
 
 export enum StrType {
@@ -13,8 +14,5 @@ export enum StrType {
   Two = 'Two',
 }
 
-console.log('test');
-console.log('dddd');
-console.log('ssss');
-
-console.log(NumType.LessThanSix);
+const a = NumType.None;
+console.log(!!a);
