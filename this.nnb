@@ -1,0 +1,30 @@
+{
+    "cells": [
+        {
+            "language": "typescript",
+            "source": [
+                "function SomeClass(args) {\n  return Object.entries(args)\n}\n\nSomeClass({ a: 'a', b: 'b' });\n"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "[",
+                                "  [",
+                                "    \u001b[32m'0'\u001b[39m,",
+                                "    {",
+                                "      a: \u001b[32m'a'\u001b[39m,",
+                                "      b: \u001b[32m'b'\u001b[39m",
+                                "    }",
+                                "  ]",
+                                "]"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

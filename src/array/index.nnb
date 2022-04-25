@@ -1,0 +1,55 @@
+{
+    "cells": [
+        {
+            "language": "typescript",
+            "source": [
+                "const a: number[] = [1, 2, 3, 4, 5, 6, 7, 8];\nconst b = a\n  .slice(1, a.length - 1)\n  .map((v) => [v, v])\n  .flat();\nb"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "[",
+                                "  \u001b[33m2\u001b[39m,",
+                                "  \u001b[33m2\u001b[39m,",
+                                "  \u001b[33m3\u001b[39m,",
+                                "  \u001b[33m3\u001b[39m,",
+                                "  \u001b[33m4\u001b[39m,",
+                                "  \u001b[33m4\u001b[39m,",
+                                "  \u001b[33m5\u001b[39m,",
+                                "  \u001b[33m5\u001b[39m,",
+                                "  \u001b[33m6\u001b[39m,",
+                                "  \u001b[33m6\u001b[39m,",
+                                "  \u001b[33m7\u001b[39m,",
+                                "  \u001b[33m7\u001b[39m",
+                                "]"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "const c = a.slice(7, 9);\nc;\n"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "[",
+                                "  \u001b[33m8\u001b[39m",
+                                "]"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

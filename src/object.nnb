@@ -1,0 +1,23 @@
+{
+    "cells": [
+        {
+            "language": "typescript",
+            "source": [
+                "const a = {\n  0: 1,\n  1: 2,\n};\nconsole.log(a.1);\n"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "{ '0': 1, '1': 2 } 0.1",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
